@@ -1,0 +1,169 @@
+.header {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    position: sticky;
+    
+  }
+  
+  .sub-header {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    position: sticky;
+   
+  }
+  
+  .bx {
+    font-size: 1.5rem;
+  }
+  
+  .search-container {
+    position: sticky;
+    
+  }
+
+.logout{
+  margin-right: 8px;
+    background: transparent;
+    padding: 9px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.logout:hover{
+  background-color: #555;
+    border-radius: 3px;
+}
+
+.search-results .movie-info {
+  color: wheat;
+}
+  
+  input[type="search"] {
+    width: 300px;
+    padding: 10px 35px 10px 10px; /* Adjust padding to fit the icon */
+    margin-right: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #333;
+    color: white;
+  }
+  
+  input[type="search"]:focus {
+    outline: none;
+  }
+  
+  .bx-search-alt-2 {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-toggle {
+    background: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  
+  .dropdown-menu {
+    
+    position: absolute;
+    top: calc(100% + 10px);
+    right: 0;
+    background-color: #333;
+    border: 1px solid #555;
+    border-top: none;
+    border-radius: 0 0 5px 5px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1001;
+  }
+
+  .dropdown-menu:hover{
+    background-color: #555;
+  }
+  
+  .dropdown-item {
+    background: rgb(245, 197, 24);
+    border: none;
+    color: black;
+    cursor: pointer;
+    padding: 5px 10px;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #444;
+  }
+
+  .home-btn{
+    margin-right: 8px;
+    background: transparent;
+    padding: 9px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+
+  .home-btn:hover{
+    background-color: #555;
+    border-radius: 3px;
+  }
+  
+  .sub-header .popular,
+  .watchlist {
+    margin-right: 8px;
+    background: transparent;
+    padding: 9px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 10px;
+
+  }
+
+  .sub-header .popular:hover, .watchlist:hover{
+    background-color: #555;
+    border-radius: 3px;
+  }
+  
+  .search-results {
+    margin-top: 20px;
+  }
+
+  .search-results .movie-card{
+    margin-bottom: 0px;
+  }
+  
+  .movie-cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .movie-card {
+    width: 200px;
+    margin: 10px;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+  }
+  

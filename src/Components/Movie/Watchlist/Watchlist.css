@@ -1,0 +1,55 @@
+/* .watchlist{
+  background-color: #6ec6ca;
+} */
+
+.watchlist .watchlist-container{
+  height: 0px;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.watchlist-movie span{
+margin-left: 50px;
+color: rgba(0, 0, 0, 0.8);
+font-size: large;
+color: wheat;
+font-style: bold;
+}
+
+.delete{
+  background-color: rgb(245, 197, 24);
+  margin-left: 10px;
+  color: black;
+  padding: 5px;
+  font-size: 17px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.delete:hover{
+  background-color: #444;
+  color: white;
+}
+
+.watchlist .watchlist-movie{
+  /* border: 1px solid black; */
+  width: 400px;
+}
+
+
+.watchlist .watchlist-movie img{
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 400px;
+  transition: all 0.3s ease;
+}
+  
+.watchlist-movie img:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.watchlist-movie:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

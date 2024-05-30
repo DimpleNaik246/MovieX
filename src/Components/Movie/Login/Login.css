@@ -1,0 +1,168 @@
+.body {
+  background-color: #2c2b2b72;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  background-image: url('../../../Images/download.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.heading-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.body .form_p {
+  
+  background: transparent;
+  
+  padding: 30px;
+  /* border: 2px solid rgba(255, 255, 255, 0.2); */
+}
+
+.body .form-group {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.form-content h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.body .form-content {
+  margin: auto;
+  margin-top: 30px;
+  padding: 9px;
+}
+
+.login-btn {
+  background-color: rgb(245, 197, 24);
+  color: black;
+  width: 95%;
+  margin-top: 20px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  margin-bottom: 30px;
+}
+
+.login-btn:hover {
+  background-color: #CCD0CF;
+  color: #4A5C6A;
+}
+
+.loginImage {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin-left: 180px;
+}
+
+.form_p form {
+  max-width: 600px;
+  width: 400px;
+  
+  margin: 0 auto;
+  background-color: #373737;
+  border: 1px transparent #ccc;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  border-radius: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.966);
+}
+
+.form-group input {
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.777);
+  transition: border-color 0.3s;
+}
+
+.form-group input::placeholder {
+  color: white;
+  text-align: justify;
+}
+
+.form-content .register {
+  color: #CCD0CF;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+}
+
+.forgot {
+  margin-left: 20px;
+  margin-top: 20px;
+  color: #ccc;
+  text-align: center;
+  text-decoration: none;
+}
+
+.eye-icon {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY((-50%));
+  cursor: pointer;
+  filter: invert(100%);
+}
+
+/*toast notification styles*/
+
+.Toastify__toast-container {
+  width: 300px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.Toastify__toast--success {
+  background-color: #4caf50;
+  color: #ffffff;
+}
+
+.Toastify__toast-body {
+  font-size: 16px;
+  padding: 10px;
+}
+
+.Toastify__close-button {
+  color: #ffffff;
+}
+
+.user-email {
+  color: white;
+}
+
+.register:hover, .forgot:hover{
+  color: rgb(245, 197, 24);
+}
+

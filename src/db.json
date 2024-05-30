@@ -1,0 +1,89 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "dimple@gmail.com",
+      "password": "Dimple@246",
+      "watchlist": [
+        {
+          "adult": false,
+          "backdrop_path": "/x1Ex090BNIXcmaBYB2US0j3hBUF.jpg",
+          "genre_ids": [
+            28,
+            53,
+            18
+          ],
+          "id": 1057001,
+          "original_language": "ko",
+          "original_title": "The Childe",
+          "overview": "Desperate to secure funds for his mother's surgery, an amateur boxer searches for the wealthy father he's never met. Traveling from the Philippines to Korea, he is relentlessly pursued and forced to confront a shocking truth.",
+          "popularity": 1025.699,
+          "poster_path": "/ydC8ubFXQfkPJDhkduMhbE9mTz7.jpg",
+          "release_date": "2023-06-21",
+          "title": "The Childe",
+          "video": false,
+          "vote_average": 6.986,
+          "vote_count": 74,
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "email": "avani@gmail.com",
+      "password": "Avani@246",
+      "watchlist": []
+    },
+    {
+      "id": "3",
+      "email": "aditi@gmail.com",
+      "password": "Aditi@123"
+    },
+    {
+      "id": "b1f1",
+      "email": "xyz@gmail.com",
+      "password": "Xyz@1234"
+    },
+    {
+      "id": "e8ee",
+      "email": "hihdi@gmail.com",
+      "password": "Dimple@1234"
+    },
+    {
+      "id": "3a33",
+      "email": "rsdsd@gmail.com",
+      "password": "Abc@1234"
+    },
+    {
+      "id": "aa66",
+      "email": "whwsw@gmail.com",
+      "password": "Pass@234"
+    },
+    {
+      "id": "3c73",
+      "email": "revati@gmail.com",
+      "password": "Pass@246"
+    },
+    {
+      "id": "4",
+      "email": "dimple.naik2@gmail.com",
+      "password": "Dimple@1234"
+    },
+    {
+      "id": "7b78",
+      "email": "disjdksdj@gmail.com",
+      "password": "DImple@123"
+    },
+    {
+      "id": "1389",
+      "email": "nckj@gmail.com",
+      "password": "Dimple@234"
+    },
+    {
+      "id": "f9c9",
+      "email": "dimpy@gmail.com",
+      "password": "Dimple@1234"
+    }
+  ],
+  "movies": []
+}

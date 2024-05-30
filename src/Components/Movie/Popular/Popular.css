@@ -1,0 +1,38 @@
+.popular-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin-top: 150px;
+  }
+  
+ .popular-container .movie-card {
+  color: wheat;
+    flex: 0 0 auto;
+    margin-right: 10px;
+    width: 200px;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .movie-info {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .movie-info h3 {
+    margin: 0;
+  }
+  
+  .star {
+    font-size: 20px;
+    color: #ffd700;
+  }
+  
+  .star.checked {
+    color: #ffcc00;
+  }
+  

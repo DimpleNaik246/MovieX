@@ -1,0 +1,115 @@
+.body-register body{
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+    margin: 0;
+}
+
+.register-form {
+    margin-top: 50px;
+    background: transparent;
+    padding: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.register-form form{
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #373737;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    border-radius: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.register-content{
+    margin: auto;
+    margin-top: 30px;
+    padding: 9px;
+}
+
+.register-content h2{
+    font-size: 20px;
+    text-align: center;
+}
+
+.register-group{
+    margin-bottom: 20px;
+}
+
+.register-content{
+    margin: auto;
+    margin-top: 30px;
+    padding: 9px;
+    margin-left: 10px;
+}
+
+.register-group label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.966);
+}
+
+.register-group [type="email"],
+input[type="password"] {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.777);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.register-group input::placeholder{
+    color: white;
+    text-align: justify;
+}
+
+.register-btn {
+    background-color: rgb(245, 197, 24);
+    color: black;
+    margin-top: 10px;
+    width: 100%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-bottom: 30px;
+}
+
+.register-btn:hover {
+    background-color: #CCD0CF;
+    color: #4A5C6A;
+}
+
+.password-container {
+    position: relative;
+}
+
+.password-container .eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.errors{
+    color: whitesmoke;
+}
